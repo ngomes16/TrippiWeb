@@ -1,0 +1,7 @@
+- Trippi is an application that focuses on individual/group saving and budgeting for trips.
+- The user will be able to create different "trips".
+- The creator of said trip can invite others to join the group. 
+- The creator of the trip will be able to give owner access to whoever they would like (this option should initally show up while inviting others to the group, but can be modified somewhere in the trip settings as well)
+- Within these trips, there will be options for each person to set their savings goals. These will be based off any items declared in the trip itinerary. An example would be splitting an AirBNB cost of $500 amongst 5 people. By default this wlil be set as an even split of $100/person. However this is also modifiable before setting it in everyones budget.
+- Within these trips, the creator will be able to establish overall savings goals. This will be determined by the items in the itinerary and any other sections that the group would like to add. For example, a section called "Food and Drinks" for general spending purposes.
+- 
