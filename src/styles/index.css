@@ -1,0 +1,29 @@
+/* Trippi global stylesheet
+ * Purpose: Provide Tailwind directives and base styles for the application.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0B0F14; /* trippi.charcoal */
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: white;
+  font-family: theme('fontFamily.body');
+}
+
+/* Reusable component classes */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-xl bg-trippi-teal px-4 py-2 font-medium text-black hover:bg-trippi-tealDark transition-colors;
+}
+
+.card {
+  @apply rounded-2xl bg-neutral-900/70 backdrop-blur border border-white/10 shadow-lg;
+}
